@@ -187,7 +187,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         async function recordAttendanceOnBlockchain(attendanceData) {
             if (typeof window.ethereum !== 'undefined') {
                 const web3 = new Web3(window.ethereum);
-                const contractAddress = '0x98508202311B8535dA4C576c26EE25D77836B849'; // Your contract address
+                const contractAddress = '0xE38Be253d36aD980fBda75071d09F9D79904BFD1'; // Your contract address
                 const contractABI = [
                     {
                         "inputs": [
