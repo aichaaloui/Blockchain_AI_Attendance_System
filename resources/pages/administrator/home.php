@@ -55,7 +55,7 @@
 
                         <div class="card--data">
                             <div class="card--content">
-                                <h5 class="card--title">Registered Lectures</h5>
+                                <h5 class="card--title">Registered professors</h5>
                                 <h1><?php total_rows('tbllecture') ?></h1>
                             </div>
                             <i class="ri-user-line card--icon--lg"></i>
@@ -68,8 +68,8 @@
             <div class="table-container">
                 <a href="manage-lecture" style="text-decoration:none;">
                     <div class="title">
-                        <h2 class="section--title">Lectures</h2>
-                        <button class="add"><i class="ri-add-line"></i>Add lecture</button>
+                        <h2 class="section--title">professors</h2>
+                        <button class="add"><i class="ri-add-line"></i>Add a professor</button>
                     </div>
                 </a>
                 <div class="table">

@@ -21,7 +21,7 @@
                 <li>
                     <a href="manage-lecture">
                         <span class="icon icon-1"><i class="ri-user-line"></i></span>
-                        <span class="sidebar--item">manage lectures</span>
+                        <span class="sidebar--item">manage professors</span>
                     </a>
                 </li>
                 <li>

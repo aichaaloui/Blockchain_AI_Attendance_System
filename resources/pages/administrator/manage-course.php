@@ -278,7 +278,7 @@ if (isset($_POST["addFaculty"])) {
                                 <th>Name</th>
                                 <th>Total Courses</th>
                                 <th>Total Students</th>
-                                <th>Total Lectures</th>
+                                <th>Total Professors</th>
                                 <th>Date Created</th>
                             </tr>
                         </thead>
@@ -368,7 +368,7 @@ if (isset($_POST["addFaculty"])) {
                 <input type="text" name="unitCode" placeholder="Unit Code" required>
 
                 <select required name="lecture">
-                    <option value="" selected>Assign Lecture</option>
+                    <option value="" selected>Assign Professor</option>
                     <?php
                     $lectureNames = getLectureNames();
                     foreach ($lectureNames as $lecture) {

@@ -76,8 +76,8 @@ if (isset($_POST["addLecture"])) {
             <?php showMessage() ?>
             <div class="table-container">
                 <div class="title" id="showButton">
-                    <h2 class="section--title">Lectures</h2>
-                    <button class="add"><i class="ri-add-line"></i>Add lecture</button>
+                    <h2 class="section--title">Professors</h2>
+                    <button class="add"><i class="ri-add-line"></i>Add professor</button>
                 </div>
                 <div class="table">
                     <table>
@@ -121,7 +121,7 @@ if (isset($_POST["addLecture"])) {
                 <form method="POST" action="" name="addLecture" enctype="multipart/form-data">
                     <div style="display:flex; justify-content:space-around;">
                         <div class="form-title">
-                            <p>Add Lecture</p>
+                            <p>Add professor</p>
                         </div>
                         <div>
                             <span class="close">&times;</span>

@@ -91,7 +91,7 @@ function display_error($error, $is_main = false)
 
                 <select name="user_type" id="" required>
                     <option value="">Select User</option>
-                    <option value="lecture">Lecture</option>
+                    <option value="lecture">Professor</option>
                     <option value="administrator">Admin</option>
                 </select>
             </div>
